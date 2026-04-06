@@ -1,4 +1,8 @@
 package quanlysanpham;
 
-public class InvalidPriceException {
+public class InvalidPriceException extends Exception {
+    public InvalidPriceException(String message) {
+        super(message);
+    }
 }
+
